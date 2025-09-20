@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Assignment1/Assignment1.iml" filepath="$PROJECT_DIR$/Assignment1/Assignment1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Assignment2/Assignment2.iml" filepath="$PROJECT_DIR$/Assignment2/Assignment2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS3920/Assignment1/Assignment1.iml" filepath="$PROJECT_DIR$/IS3920/Assignment1/Assignment1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS3920/Assignment2/Assignment2.iml" filepath="$PROJECT_DIR$/IS3920/Assignment2/Assignment2.iml" />
       <module fileurl="file://$PROJECT_DIR$/IS3920/Assignment3/Assignment3.iml" filepath="$PROJECT_DIR$/IS3920/Assignment3/Assignment3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java-Book/Java-Book.iml" filepath="$PROJECT_DIR$/Java-Book/Java-Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IS3920/Java-Book/Java-Book.iml" filepath="$PROJECT_DIR$/IS3920/Java-Book/Java-Book.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ksu-java-projects.iml" filepath="$PROJECT_DIR$/.idea/ksu-java-projects.iml" />
     </modules>
   </component>
