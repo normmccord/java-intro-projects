@@ -1,4 +1,4 @@
-# KSU Japa Projects
+# KSU Java Projects
 
 ---
 
