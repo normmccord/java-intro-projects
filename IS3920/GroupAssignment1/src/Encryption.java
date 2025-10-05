@@ -66,7 +66,7 @@ class Encryption {
         for (char i : plainText.toCharArray()){
             int index = alphabets.indexOf(i);
             if (index == -1) {
-                return "Error: Invalid Character.";
+                return "Error: Invalid Character"; // no trailing period
             }
             char encryptedChar = symbols.get(index);
             encrypted += encryptedChar;
@@ -80,7 +80,7 @@ class Encryption {
         for (char i : codeText.toCharArray()){
             int index = symbols.indexOf(i);
             if (index == -1){
-                return "Error: Invalid Symbol.";
+                return "Error: Invalid Symbol"; // no trailing period
             }
             char decryptedChar = alphabets.get(index);
             decrypted += decryptedChar;
