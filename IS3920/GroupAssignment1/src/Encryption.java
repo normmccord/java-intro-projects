@@ -90,34 +90,34 @@ class Encryption {
     
     
     //This is just for testing the methods.  Comment out or remove before submission.
-    public static void main(String[] args) {
-        Encryption e = new Encryption();
-
-        System.out.println();
-        System.out.println("Alphabet list:");
-        System.out.println(e.alphabets);
-
-        System.out.println("\nSymbol list:");
-        System.out.println(e.symbols);
-
-        System.out.println();
-        System.out.println("Symbol at index 0: " + e.return_symbol(0));
-        System.out.println("Symbol at index 1: " + e.return_symbol(1));
-        System.out.println("Symbol at index 5: " + e.return_symbol(5));
-        System.out.println("Index of symbol !: " + e.return_symbol_index('!'));
-        System.out.println("Index of symbol @: " + e.return_symbol_index('@'));
-
-        System.out.println();
-        System.out.println("Encrypting 'Elvis'...");
-        System.out.println(e.encrypt("Elvis"));
-
-        System.out.println();
-        System.out.println("Decrypting ' )!@#$% '...");
-        System.out.println(e.decrypt(")!@#$%"));
-
-        System.out.println();
-        System.out.println("Decrypting ' )!@#$ '...");
-        System.out.println(e.decrypt(")!@#$"));
-    }
+//    public static void main(String[] args) {
+//        Encryption e = new Encryption();
+//
+//        System.out.println();
+//        System.out.println("Alphabet list:");
+//        System.out.println(e.alphabets);
+//
+//        System.out.println("\nSymbol list:");
+//        System.out.println(e.symbols);
+//
+//        System.out.println();
+//        System.out.println("Symbol at index 0: " + e.return_symbol(0));
+//        System.out.println("Symbol at index 1: " + e.return_symbol(1));
+//        System.out.println("Symbol at index 5: " + e.return_symbol(5));
+//        System.out.println("Index of symbol !: " + e.return_symbol_index('!'));
+//        System.out.println("Index of symbol @: " + e.return_symbol_index('@'));
+//
+//        System.out.println();
+//        System.out.println("Encrypting 'Elvis'...");
+//        System.out.println(e.encrypt("Elvis"));
+//
+//        System.out.println();
+//        System.out.println("Decrypting ' )!@#$% '...");
+//        System.out.println(e.decrypt(")!@#$%"));
+//
+//        System.out.println();
+//        System.out.println("Decrypting ' )!@#$ '...");
+//        System.out.println(e.decrypt(")!@#$"));
+//    }
 
 }
