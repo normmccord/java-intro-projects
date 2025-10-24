@@ -1,5 +1,5 @@
 // Abstract class for all insurance policies
-public abstract class insurance {
+public abstract class Insurance {
 
     // Instance variables
     private String policyholderFullName;
@@ -8,7 +8,7 @@ public abstract class insurance {
     private double premium = 0.0;
 
     // Constructor assigns name and unique policy number
-    public insurance(String policyholderFullName) {
+    public Insurance(String policyholderFullName) {
         this.policyholderFullName = policyholderFullName;
         this.policyNumber = totalPolicies; // start at 0
         totalPolicies++;
@@ -36,7 +36,7 @@ public abstract class insurance {
     }
 
     public static void setTotalPolicies(int totalPolicies) {
-        insurance.totalPolicies = totalPolicies;
+        Insurance.totalPolicies = totalPolicies;
     }
 
     public double getPremium() {

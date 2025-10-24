@@ -1,5 +1,5 @@
 // Interface for insurance policies with deductibles
-public interface deductable {
+public interface Deductible {
 
     // Checks if the deductible has been met
     boolean isDeductibleMet();
