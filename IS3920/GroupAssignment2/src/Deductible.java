@@ -1,3 +1,5 @@
+// Contributors are Erik Gijlstra, Aniel Granados, Prisca Louis, Norman McCord
+
 // Interface for insurance policies with deductibles
 public interface Deductible {
 

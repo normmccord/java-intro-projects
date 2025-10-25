@@ -1,3 +1,5 @@
+// Contributors are Erik Gijlstra, Aniel Granados, Prisca Louis, Norman McCord
+
 // TermLife.java
 // Subclass representing a term-life insurance policy
 

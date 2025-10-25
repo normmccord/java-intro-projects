@@ -1,3 +1,5 @@
+// Contributors are Erik Gijlstra, Aniel Granados, Prisca Louis, Norman McCord
+
 // Abstract class for all insurance policies
 public abstract class Insurance {
 
