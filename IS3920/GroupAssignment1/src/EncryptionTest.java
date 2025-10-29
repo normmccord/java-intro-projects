@@ -1,3 +1,6 @@
+/*
+Group 6: Erik Gijlstra, Aniel Granados, Prisca Louis, Norman McCord
+ */
 import java.util.Scanner;
 
 public class EncryptionTest {
