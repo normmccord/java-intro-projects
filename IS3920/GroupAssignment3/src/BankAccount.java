@@ -1,3 +1,4 @@
+// Contributors are Erik Gijlstra, Aniel Granados, Prisca Louis, Norman McCord
 // BankAccount.java - Base class for all bank accounts
 public class BankAccount {
 
