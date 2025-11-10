@@ -1,11 +1,12 @@
 // Contributors are Erik Gijlstra, Aniel Granados, Prisca Louis, Norman McCord
+
 public class Checking extends BankAccount {
 
     private double dailyWithdrawalLimit;
 
     // Overloaded constructor per spec
-    public Checking(String name, String userId, String userPassword) {
-        super(name, userId, userPassword);   // call parent overloaded constructor
+    public Checking(String name, String userId, String userPassword) throws InvalidPasswordFormatException {
+        super(name, userId, userPassword);   // BankAccount(...) throws InvalidPasswordFormatException
         this.dailyWithdrawalLimit = 300.00;  // default per spec
     }
 
@@ -17,3 +18,4 @@ public class Checking extends BankAccount {
         this.dailyWithdrawalLimit = dailyWithdrawalLimit;
     }
 }
+//end class Checking
